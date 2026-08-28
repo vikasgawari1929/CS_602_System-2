@@ -1,0 +1,7 @@
+MOV r/m32,r32 89
+ADD r/m32,r32 01
+SUB r/m32,r32 29
+CMP r/m32,r32 39
+XOR r/m32,r32 31
+OR r/m32,r32 09
+AND r/m32,r32 21

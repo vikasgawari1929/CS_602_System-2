@@ -1,0 +1,16 @@
+SECTION .text
+
+START:
+    MOV EAX, EBX
+    ADD EAX, 25
+    SUB EBX, EDX
+    CMP EBP, ESP
+    XOR ECX, ECX
+    AND EAX, EBX
+    MOV ECX, [EBX]
+    MOV EDX, [EBX+ESI*4+10H]
+    JMP LOOP
+    XYZ EAX, EBX
+
+LOOP:
+    ADD EAX, EBX
